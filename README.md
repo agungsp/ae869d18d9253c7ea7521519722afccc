@@ -69,6 +69,12 @@ php worker
 ## Request Lifecycle
 I made this simple framework based on what I know about Laravel. The syntax, code style, variable naming, and logical thinking all stem from there and are all experiences I have. It's very different and not as good as laravel, but this is what I got the best of. You can see the request lifecycle from this framework in the image below:
 ![Request Lifecycle](request_lifecycle.png "Request Lifecycle")
+
+## What is missing?
+- PSR standard and code linter (phpcs).
+- Docker and docker-compose.
+- Oauth2 for authentication.
+
 ## How to reach me?
 
 - Github : [@agungsp](https://www.github.com/agungsp)
