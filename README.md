@@ -29,7 +29,7 @@ php worker
 
 #### Get all mails
 
-```http
+```
   GET /api/mails
 ```
 
@@ -40,7 +40,7 @@ php worker
 
 #### Get mail
 
-```http
+```
   GET /api/mails/{id}
 ```
 
@@ -50,7 +50,7 @@ php worker
 
 #### Create mail
 
-```http
+```
   POST /api/mails
 ```
 
