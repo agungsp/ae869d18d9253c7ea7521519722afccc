@@ -27,6 +27,32 @@ php worker
 
 ## API Reference
 
+#### Register
+
+```
+  POST /api/register
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `name` | `String` | **Required** User name |
+| `email` | `String` | **Required** User email |
+| `password` | `String` | **Required** User password |
+
+#### Login
+
+```
+  POST /api/login
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `email` | `String` | **Required** User email |
+| `password` | `String` | **Required** User password |
+
+> **Note**
+> All end point (exclude login and register) protected with JWT auth. Please get token via login endpoint and put token in request header with as bearer authentication.
+
 #### Get all mails
 
 ```
